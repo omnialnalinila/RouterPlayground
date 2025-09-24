@@ -1,7 +1,7 @@
 {
   "name": "routerplayground",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "expo": "~53.0.22",
+    "scheme": "RouterPlayground",
     "expo-constants": "~17.1.7",
     "expo-linking": "~7.1.7",
     "expo-router": "~5.1.6",
