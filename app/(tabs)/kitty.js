@@ -3,12 +3,15 @@ import { StyleSheet, Text, View, Image, Pressable, Alert } from 'react-native';
 import { LinkButton } from '../../components/LinkButton';
 
 const meow = () => {
-  Alert.alert("meow :3", "meow :3" [
+  Alert.alert("Kitty's Response", 'meow :3', [
     {
-      text: "meow :3",
-      onPress: () => console.log("meowed back :3"),
+      text: 'mew :3',
+      onPress: () => Alert.alert('You have meowed back at the kitty cat :3'),
     },
-    {text:"kitty!!",onPress:()=>console.log("noticed kitty :3c")}
+    {
+      text: 'hello kitty :D',
+      onPress: () => Alert.alert("Kitty's Other Response", 'mrrp :3'),
+    },
   ])
 }
 
